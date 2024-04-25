@@ -8,18 +8,54 @@
     width: 170px;
 }
 
-.navbar ul{
-    list-style-type: none;
-    background-color: white;
-    padding: 0px;
+body {
     margin: 0px;
 }
 
-.navbar a{
-    color: black
-    
+main {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.background {
-    background-color: black;
+h1 {
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+
+#box {
+    border: 2px black solid;
+    background-color: #666666;
 }
